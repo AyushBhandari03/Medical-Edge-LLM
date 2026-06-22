@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+logs/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Datasets
+*.jsonl
+*.csv
+*.parquet
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+
+# TensorBoard
+runs/
+
+# Benchmark outputs
+outputs/logs/
+outputs/plots/
+outputs/reports/
